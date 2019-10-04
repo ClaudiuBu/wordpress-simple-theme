@@ -1,5 +1,6 @@
 /* 
 Author: Cristian Claudiu Butnaru
+Theme Name: Simple Theme
 Description: This is basically a simple theme.
 Author URI: https://claudiubu.github.io/CV/
 Version: 1.0
@@ -7,6 +8,10 @@ Version: 1.0
 
 
 /* TAG SELECTORS */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+
 
 body{
     font-family: Arial;
@@ -14,10 +19,15 @@ body{
     color:#333;
     background:#f4f4f4;
     margin:0;
+    font-family: 'Roboto', sans-serif;
+
 }
 a{
     color:#333;
     
+}
+hr{
+    margin:10px 0px;
 }
 
 header{
@@ -63,11 +73,20 @@ article.post{
 }
 article.post a.button{
     display:inline-block;
-    background:#333;
-    color:#fff;
+    background:#343a40;
+    color:#f8f9fa;
     padding:10px 5px;
     margin-bottom:10px;
     text-decoration:none;
+    border-radius:10px;
+    border:1px solid #f8f9fa;
+}
+article.post a.button:hover{
+    background:#f8f9fa;
+    color:#6c757d;
+    transition:0.5s;
+    border:1px solid #333;
+
 }
 .post-thumbnail img{
     width:100%;
