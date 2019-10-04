@@ -17,7 +17,9 @@ body{
 }
 a{
     color:#333;
+    
 }
+
 header{
     background: #393939;
     color:#fff;
@@ -72,5 +74,18 @@ article.post a.button{
     height:auto;
 }
 
+.bg-lighty{
+    background-color:#fff !important;
+}
 
+a.nav-link:hover{
+    transition:0.5s;
+    transform:scale(1.2,1.1);
+}
+.nav-link{
+    padding:30px;
+}
+.menu-item{
+    padding:0px 20px;
+}
 /* ID SELECTORS  */

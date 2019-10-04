@@ -6,7 +6,7 @@
             <?php while(have_posts()): the_post();?>
                 <article class="post"> 
                 <h3>
-                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                    <a href="<?php the_permalink(); ?>" style="text-decoration:none;"><?php the_title(); ?></a></h3>
                 <div class ="meta">
                 Created by <?php the_author(); ?> on <?php the_time('l jS \of F Y h:i:s A');?>
                 </div>
