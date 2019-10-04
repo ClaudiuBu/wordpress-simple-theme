@@ -110,4 +110,24 @@ a.nav-link:hover{
 .menu-item{
     padding:0px 20px;
 }
+
+.side-widget{
+    padding:10px;
+    border:1px solid grey;
+    margin-bottom:20px;
+    margin-top:20px;
+
+}
+.side-widget ul{
+    padding-left:0;
+}
+.side-widget li{
+    list-style: none;
+    line-height: 2.2em;
+    border-bottom:dotted 1px #ccc;
+
+}
+.side-widget ul a {
+    text-decoration:none;
+}
 /* ID SELECTORS  */

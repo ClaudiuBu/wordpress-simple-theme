@@ -1,7 +1,8 @@
 
     <?php get_header(); ?>
-    <div class="main">
-        <div class="container">
+    <div class="container">
+        <div class= "row">
+    <div class="main col-8">
         <?php if(have_posts()):?>
             <?php while(have_posts()): the_post();?>
                 <article class="post"> 
@@ -20,7 +21,11 @@
             <?php echo wpautop('Nu avem postari'); ?>
              
 <?php endif; ?>
-
+</div>
+<div class="sidebar col-3">
+        <?php include('widgets.php'); ?>
+    
         </div>
     </div>
+</div>
 <?php get_footer(); ?>
