@@ -1,2 +1,4 @@
-# wordpress-simple-theme
-Wordpress simple theme
+# Wordpress Simple Theme
+
+# Team Preview
+![](screenshot.png)
