@@ -6,18 +6,18 @@
             <?php while(have_posts()): the_post();?>
                 <article class="post"> 
                 <h3>
-                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+                    <a><?php the_title(); ?></a></h3>
                 <div class ="meta">
                 Created by <?php the_author(); ?> on <?php the_time('l jS \of F Y h:i:s A');?>
                 </div>
-                <?php if(has_post_thumbnail()) :?>
-                    <div class="post-thumbnail">
+                <?php if(has_post_thumbnail()):?>
+                    <div class ="post-thumbnail">
                         <?php the_post_thumbnail(); ?>
                     </div>
-                <?php endif; ?>
-                <?php the_excerpt(); ?>
+                <?php endif;?>
+                <?php the_content(); ?>
                 <br>
-                <a  href="<?php the_permalink(); ?>" class="button" >Read More</a>
+                
                 
                 </article>
             <?php endwhile; ?>
