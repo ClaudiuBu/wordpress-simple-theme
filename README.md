@@ -1,4 +1,4 @@
 # Wordpress Simple Theme
 
-# Team Preview
+# Theme Preview
 ![](screenshot.png)
